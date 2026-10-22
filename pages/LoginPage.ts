@@ -20,7 +20,7 @@ export class LoginPage {
     }
 
     async goto(): Promise<void> {
-        await this.page.goto('https://parabank.parasoft.com/parabank/index.htm');
+        await this.page.goto('index.htm');
     }
 
     async submitEmptyForm(): Promise<void> {
